@@ -50,7 +50,7 @@ const config = {
       "subTitle": "Summary",
       "paragraphs": [
         "Meet a young family who thought homeownership was just a distant dream. After years of throwing money away on rent, they were frustrated watching prices climb while their savings stayed stagnant. They needed to find the perfect home that would cost them less than what they were already paying their landlord.",
-        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SECURED THEIR DREAM HOME FOR $54,700 BELOW ASKING PRICE</strong> <strong>. MONTHLY HOUSING COSTS DROPPED $400 BELOW THEIR PREVIOUS RENT</strong> <strong>.CLOSED IN JUST 30 DAYS</strong> – faster than the seller's ideal timeline. Found a home that checked every box: top-rated school district, chef-quality kitchen, and dedicated office space for growing their business"
+        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SECURED THEIR DREAM HOME FOR $54,700 BELOW ASKING PRICE.</strong> <strong> MONTHLY HOUSING COSTS DROPPED $400 BELOW THEIR PREVIOUS RENT.</strong> <strong>CLOSED IN JUST 30 DAYS</strong> – faster than the seller's ideal timeline. Found a home that checked every box: top-rated school district, chef-quality kitchen, and dedicated office space for growing their business"
       ]
     },
     "sidebar": {
