@@ -45,7 +45,7 @@ const config = {
     "summary": {
       "title": "How We Helped First-Time Buyers Go From Renting to Owning Their Dream Home for LESS Than Their Monthly Rent – Saving $54,700 Off List Price",
       "heroImage": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://iili.io/KIl1ZRR.webp"
       },
       "subTitle": "Summary",
       "paragraphs": [
