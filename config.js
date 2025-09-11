@@ -1,16 +1,5 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "iStreet Realty Group",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
         "name": "Rick Roccasalva",
@@ -26,7 +15,12 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "iStreet Realty Group",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "https://calendly.com/rick-istreetrealty/discovery-call?month=2025-09",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2"
   },
   "header": {
     "tag": "CASE STUDY",
@@ -64,7 +58,8 @@ const config = {
         "Every property they viewed either exceeded their budget or lacked the essential features they needed: proximity to good schools, a spacious kitchen for family gatherings, and a private office space for client meetings",
         "They felt overwhelmed by the market complexity and worried they'd never find something within their price range that checked all their boxes",
         "Time was running out – they needed to act fast before rates changed or the perfect property slipped away"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +73,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"I never thought this was possible until Rick made this happen for my family! We went from feeling hopeless about ever owning a home to getting our dream property for less than we were paying in rent. Rick didn't just find us a house – he found us a home that fits our lifestyle perfectly while actually improving our financial situation. His negotiation skills are incredible, and his ability to see opportunities that other agents miss is what made the difference for us.\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +84,8 @@ const config = {
       ],
       "image": {
         "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -98,7 +95,8 @@ const config = {
         "<strong>MONTHLY HOUSING COSTS DROPPED $400 BELOW THEIR PREVIOUS RENT</strong>",
         "<strong>CLOSED IN JUST 30 DAYS</strong> – faster than the seller's ideal timeline",
         "Found a home that checked every box: top-rated school district, chef-quality kitchen, and dedicated office space for growing their business"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -107,7 +105,8 @@ const config = {
         "The right agent can help you secure a home for less than your current rent – it's not just about the purchase price, but understanding total monthly costs including mortgage, taxes, and savings",
         "Quick closings can be more valuable to sellers than higher offers – flexibility and certainty often trump cash when sellers have specific timeline needs",
         "There are still incredible deals available for qualified buyers who work with an agent who knows how to spot undervalued properties and craft winning strategies"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -119,24 +118,24 @@ const config = {
     }
   ],
   "footer": {
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://istreetrealty.ca/privacy-policy/"
+    },
     "logo": {
       "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/c68f7f74-a1cf-4af6-a787-cf6c973b557f/headshot.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIDUISHS%2F20250908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250908T194732Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJIMEYCIQDWzaOCf5UWhF1%2F%2BFCZKfUkxu%2FzMOn7Z%2FGs2xeCTHrtoAIhAI4MkyTIHmtm%2B6DNhl1TEwQAvMrIEruxcgPXJJZp9%2BS8KogECML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx0AAfiEe%2FG0MEi%2BTkq3APwPiZBnoOg%2B9bctv7LsrjCF86gMQoT%2FwEpYKZ9Hmmw4MJeznPRL0iu%2FcH1BkWTonVlqcdhp07rEbuki%2BZGtzhyKfFp2NF7wA9BIePDUJxSxxI2xTNqLPsEKblh86%2FISiaZ0xACzUsYbssBsJaw82dKDsutlIIS7jeN1tdu832J3nLSgf8v9K6s01%2B4smsE7FjzMHEHtUCS6rbKPTOQrZWMZr8%2Bgl%2BTUSfeyfLsR%2FDLT7kwjUS7SWwVsgQYHHlVYgHfvUvt0Du33ZMQccXhjiNmL2wZR3r%2FH45HQiYffcu1SlGRg1UxhOn15LwNSmCGzxXFRd2Ci2%2BZjJrD7JV55FFBW8F81nnj112%2BNUtDpP2gkEKn5fzKEW%2Bs%2BCn0rRoflFwfDISbVpXPHgYzT96SJqKkZxRNGgFqH%2FZanAb0Yr6tj48gtmzGJB3bG%2BmSGL%2Fx9xhowtfbAJVfU7Db0AX4FzIhsIx6glxiprT4d2n%2FCtOCZtgVq0y5xYs%2BDnFo6IIvHv32dji%2BDpMPARDH41y4Ljmm5Mmdk4ekTU4knG8QXeI6DnUe2a9rm9JGFxVTc4GJfp%2BoItvBiBnRJLl1kreO4Ui1nIRU8SjYl8xHu%2B7m3Rt6RERW41bdtkQ0qj4l5jCtoPzFBjqkAa8FB1rW0XUZ2UQ9MhBZsuDUc9OeZKsW%2FWNde%2BzQYlqbWONeRv1mApx6z3yzCFPrQ4mGiiB8LYB31YZUEzphr03KkTFRYAnVvS3HkXPxVYC1dOkR%2BT%2FsH2SuO6AzWZt3D4wOuIkKkJfo3RVyAaT%2FHxPmNU8wjEkLssUp55AX9VtZGP1PlxLMy71c9BD71rxHERNQ8w05fnKr28MEffpDQjbVmHMB&X-Amz-Signature=6b4ef5cdf86f0584cf9d9bb1d9cbfcc2d68979f77b75ebec3aebba01b4887470&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    },
+    "secondaryLogo": {
+      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/2ad1f3a4-7cea-45f4-bef2-b56767bf550e/brokeragelogo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIDUISHS%2F20250908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250908T194732Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJIMEYCIQDWzaOCf5UWhF1%2F%2BFCZKfUkxu%2FzMOn7Z%2FGs2xeCTHrtoAIhAI4MkyTIHmtm%2B6DNhl1TEwQAvMrIEruxcgPXJJZp9%2BS8KogECML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx0AAfiEe%2FG0MEi%2BTkq3APwPiZBnoOg%2B9bctv7LsrjCF86gMQoT%2FwEpYKZ9Hmmw4MJeznPRL0iu%2FcH1BkWTonVlqcdhp07rEbuki%2BZGtzhyKfFp2NF7wA9BIePDUJxSxxI2xTNqLPsEKblh86%2FISiaZ0xACzUsYbssBsJaw82dKDsutlIIS7jeN1tdu832J3nLSgf8v9K6s01%2B4smsE7FjzMHEHtUCS6rbKPTOQrZWMZr8%2Bgl%2BTUSfeyfLsR%2FDLT7kwjUS7SWwVsgQYHHlVYgHfvUvt0Du33ZMQccXhjiNmL2wZR3r%2FH45HQiYffcu1SlGRg1UxhOn15LwNSmCGzxXFRd2Ci2%2BZjJrD7JV55FFBW8F81nnj112%2BNUtDpP2gkEKn5fzKEW%2Bs%2BCn0rRoflFwfDISbVpXPHgYzT96SJqKkZxRNGgFqH%2FZanAb0Yr6tj48gtmzGJB3bG%2BmSGL%2Fx9xhowtfbAJVfU7Db0AX4FzIhsIx6glxiprT4d2n%2FCtOCZtgVq0y5xYs%2BDnFo6IIvHv32dji%2BDpMPARDH41y4Ljmm5Mmdk4ekTU4knG8QXeI6DnUe2a9rm9JGFxVTc4GJfp%2BoItvBiBnRJLl1kreO4Ui1nIRU8SjYl8xHu%2B7m3Rt6RERW41bdtkQ0qj4l5jCtoPzFBjqkAa8FB1rW0XUZ2UQ9MhBZsuDUc9OeZKsW%2FWNde%2BzQYlqbWONeRv1mApx6z3yzCFPrQ4mGiiB8LYB31YZUEzphr03KkTFRYAnVvS3HkXPxVYC1dOkR%2BT%2FsH2SuO6AzWZt3D4wOuIkKkJfo3RVyAaT%2FHxPmNU8wjEkLssUp55AX9VtZGP1PlxLMy71c9BD71rxHERNQ8w05fnKr28MEffpDQjbVmHMB&X-Amz-Signature=1d4bceded7889d3d020aba0b82ccb06c64e9497eb48f01ca2f136f03e3a8c656&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "HomeLife Partners",
     "brokerageAddress": "3850 Steeles Avenue W. Unit 6, Woodbridge, Ontario",
-    "secondaryLogo": {
-      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/2ad1f3a4-7cea-45f4-bef2-b56767bf550e/brokeragelogo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XIDUISHS%2F20250908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250908T194732Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCXVzLXdlc3QtMiJIMEYCIQDWzaOCf5UWhF1%2F%2BFCZKfUkxu%2FzMOn7Z%2FGs2xeCTHrtoAIhAI4MkyTIHmtm%2B6DNhl1TEwQAvMrIEruxcgPXJJZp9%2BS8KogECML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igx0AAfiEe%2FG0MEi%2BTkq3APwPiZBnoOg%2B9bctv7LsrjCF86gMQoT%2FwEpYKZ9Hmmw4MJeznPRL0iu%2FcH1BkWTonVlqcdhp07rEbuki%2BZGtzhyKfFp2NF7wA9BIePDUJxSxxI2xTNqLPsEKblh86%2FISiaZ0xACzUsYbssBsJaw82dKDsutlIIS7jeN1tdu832J3nLSgf8v9K6s01%2B4smsE7FjzMHEHtUCS6rbKPTOQrZWMZr8%2Bgl%2BTUSfeyfLsR%2FDLT7kwjUS7SWwVsgQYHHlVYgHfvUvt0Du33ZMQccXhjiNmL2wZR3r%2FH45HQiYffcu1SlGRg1UxhOn15LwNSmCGzxXFRd2Ci2%2BZjJrD7JV55FFBW8F81nnj112%2BNUtDpP2gkEKn5fzKEW%2Bs%2BCn0rRoflFwfDISbVpXPHgYzT96SJqKkZxRNGgFqH%2FZanAb0Yr6tj48gtmzGJB3bG%2BmSGL%2Fx9xhowtfbAJVfU7Db0AX4FzIhsIx6glxiprT4d2n%2FCtOCZtgVq0y5xYs%2BDnFo6IIvHv32dji%2BDpMPARDH41y4Ljmm5Mmdk4ekTU4knG8QXeI6DnUe2a9rm9JGFxVTc4GJfp%2BoItvBiBnRJLl1kreO4Ui1nIRU8SjYl8xHu%2B7m3Rt6RERW41bdtkQ0qj4l5jCtoPzFBjqkAa8FB1rW0XUZ2UQ9MhBZsuDUc9OeZKsW%2FWNde%2BzQYlqbWONeRv1mApx6z3yzCFPrQ4mGiiB8LYB31YZUEzphr03KkTFRYAnVvS3HkXPxVYC1dOkR%2BT%2FsH2SuO6AzWZt3D4wOuIkKkJfo3RVyAaT%2FHxPmNU8wjEkLssUp55AX9VtZGP1PlxLMy71c9BD71rxHERNQ8w05fnKr28MEffpDQjbVmHMB&X-Amz-Signature=1d4bceded7889d3d020aba0b82ccb06c64e9497eb48f01ca2f136f03e3a8c656&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "https://istreetrealty.ca/privacy-policy/"
-    }
-  }
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-410"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
