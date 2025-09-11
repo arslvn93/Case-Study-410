@@ -97,7 +97,7 @@ const config = {
         "After viewing their ninth property and feeling defeated, they reached out to me because they heard about my track record of securing homes below asking price. They were specifically drawn to my reputation for creative negotiation strategies that help buyers win in tough markets without overpaying."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://freeimage.host/i/img-5137.KIl1tNp"
       },
       "listItems": []
     },
