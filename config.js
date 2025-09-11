@@ -54,7 +54,7 @@ const config = {
       ]
     },
     "sidebar": {
-      "title": "About {{companyName}}",
+      "title": "About iStreet Realty Group",
       "image": {
         "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/KyeQTgnX03giMLGAsQCM/media/681d180c6b471c48f7980705.webp"
       },
