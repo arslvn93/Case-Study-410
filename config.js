@@ -105,10 +105,10 @@ const config = {
       "type": "standard",
       "title": "The Results",
       "paragraphs": [
-        "<strong>SECURED THEIR DREAM HOME FOR $54,700 BELOW ASKING PRICE</strong>",
-        "<strong>MONTHLY HOUSING COSTS DROPPED $400 BELOW THEIR PREVIOUS RENT</strong>",
-        "<strong>CLOSED IN JUST 30 DAYS</strong> – faster than the seller's ideal timeline",
-        "Found a home that checked every box: top-rated school district, chef-quality kitchen, and dedicated office space for growing their business"
+        "-<strong>SECURED THEIR DREAM HOME FOR $54,700 BELOW ASKING PRICE</strong>",
+        "-<strong>MONTHLY HOUSING COSTS DROPPED $400 BELOW THEIR PREVIOUS RENT</strong>",
+        "-<strong>CLOSED IN JUST 30 DAYS</strong> – faster than the seller's ideal timeline",
+        "-Found a home that checked every box: top-rated school district, chef-quality kitchen, and dedicated office space for growing their business"
       ],
       "listItems": []
     },
@@ -126,7 +126,7 @@ const config = {
       "type": "ctaBanner",
       "ctaBannerContent": {
         "subhead": "Trusted By Hundreds Of Home Buyers & Sellers",
-        "headline": "Book Your Free 'Rent-to-Own Strategy Session' – I'll Show You Exactly How to Find and Secure Your Dream Home for Less Than You're Paying in Rent",
+        "headline": "Book Your Free 'Rent-to-Own Strategy Session': I'll Show You Exactly How to Find and Secure Your Dream Home for Less Than You're Paying in Rent",
         "smallText": "Book A Discovery Call Now ➡️"
       }
     }
