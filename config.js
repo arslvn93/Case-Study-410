@@ -68,10 +68,10 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "They were trapped in the rental cycle, paying $3,200/month with nothing to show for it while home prices seemed to climb every month",
-        "Every property they viewed either exceeded their budget or lacked the essential features they needed: proximity to good schools, a spacious kitchen for family gatherings, and a private office space for client meetings",
-        "They felt overwhelmed by the market complexity and worried they'd never find something within their price range that checked all their boxes",
-        "Time was running out – they needed to act fast before rates changed or the perfect property slipped away"
+        "-They were trapped in the rental cycle, paying $3,200/month with nothing to show for it while home prices seemed to climb every month.",
+        "-Every property they viewed either exceeded their budget or lacked the essential features they needed: proximity to good schools, a spacious kitchen for family gatherings, and a private office space for client meetings.",
+        "-They felt overwhelmed by the market complexity and worried they'd never find something within their price range that checked all their boxes.",
+        "-Time was running out. They needed to act fast before rates changed or the perfect property slipped away."
       ],
       "listItems": []
     },
@@ -97,7 +97,7 @@ const config = {
         "After viewing their ninth property and feeling defeated, they reached out to me because they heard about my track record of securing homes below asking price. They were specifically drawn to my reputation for creative negotiation strategies that help buyers win in tough markets without overpaying."
       ],
       "image": {
-        "src": "https://freeimage.host/i/img-5137.KIl1tNp"
+        "src": "https://iili.io/KIl1tNp.webp"
       },
       "listItems": []
     },
