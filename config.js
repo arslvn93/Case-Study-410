@@ -79,11 +79,11 @@ const config = {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "Market Intelligence Analysis: I identified undervalued properties in their target neighborhoods before they hit the mainstream buyer radar",
-        "Strategic Pricing Psychology: Rather than competing on price alone, I crafted offers that appealed to the seller's specific motivation using accelerated closing timelines",
-        "Minimal Conditions Strategy: I structured their offer with streamlined conditions that made it more attractive than competing offers, even at a lower price point",
-        "Behind-the-Scenes Negotiation: I leveraged my relationship with the listing agent to understand exactly what the seller valued most beyond just the dollar amount",
-        "Budget Optimization: I showed them how to calculate true cost of ownership versus rental payments, revealing opportunities they hadn't considered"
+        "-Market Intelligence Analysis: I identified undervalued properties in their target neighborhoods before they hit the mainstream buyer radar",
+        "-Strategic Pricing Psychology: Rather than competing on price alone, I crafted offers that appealed to the seller's specific motivation using accelerated closing timelines",
+        "-Minimal Conditions Strategy: I structured their offer with streamlined conditions that made it more attractive than competing offers, even at a lower price point",
+        "-Behind-the-Scenes Negotiation: I leveraged my relationship with the listing agent to understand exactly what the seller valued most beyond just the dollar amount",
+        "-Budget Optimization: I showed them how to calculate true cost of ownership versus rental payments, revealing opportunities they hadn't considered"
       ],
       "testimonial": {
         "quote": "\"I never thought this was possible until Rick made this happen for my family! We went from feeling hopeless about ever owning a home to getting our dream property for less than we were paying in rent. Rick didn't just find us a house – he found us a home that fits our lifestyle perfectly while actually improving our financial situation. His negotiation skills are incredible, and his ability to see opportunities that other agents miss is what made the difference for us.\"<br><span>— Satisfied Client</span>"
