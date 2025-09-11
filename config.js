@@ -43,7 +43,7 @@ const config = {
   },
   "mainBox": {
     "summary": {
-      "title": "How We Helped First-Time Buyers Go From Renting to Owning Their Dream Home for LESS Than Their Monthly Rent – Saving $54,700 Off List Price",
+      "title": "How We Helped First-Time Buyers Go From Renting to Owning Their Dream Home for LESS Than Their Monthly Rent: Saving $54,700 Off List Price",
       "heroImage": {
         "src": "https://iili.io/KIleoSS.webp"
       },
