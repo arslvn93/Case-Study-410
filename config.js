@@ -32,7 +32,7 @@ const config = {
     ],
     "companyName": "iStreet Realty Group",
     "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "https://calendly.com/rick-istreetrealty/discovery-call?month=2025-09",
+    "mainCTAButtonURL": "https://calendly.com/rick-istreetrealty/discovery-call",
     "primaryColor": "#e3c379",
     "accentColor": "#d9c6a2"
   },
