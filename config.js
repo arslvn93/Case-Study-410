@@ -39,7 +39,7 @@ const config = {
   "header": {
     "tag": "CASE STUDY",
     "title": "How We Helped First-Time Buyers Go From Renting to Owning Their Dream Home for LESS Than Their Monthly Rent – Saving $54,700 Off List Price",
-    "subheadline": "Purchased in a <strong>High-Demand Area</strong> With Strong Terms— Now Generating Top-Dollar Rent in a Tight Market"
+    "subheadline": "Found a Home That Matched Their Needs — Without Overpaying in a Hot Market."
   },
   "mainBox": {
     "summary": {
