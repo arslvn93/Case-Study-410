@@ -143,7 +143,7 @@ const config = {
       "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/KyeQTgnX03giMLGAsQCM/media/68373d324eb4a179ec0c4733.png"
     },
     "brokerageLabel": "Brokerage:",
-    "brokerageName": "HomeLife Partners",
+    "brokerageName": "HomeLife Partners Realty Corp",
     "brokerageAddress": "3850 Steeles Avenue W. Unit 6, Woodbridge, Ontario",
     "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
   },
