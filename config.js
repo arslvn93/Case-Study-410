@@ -68,7 +68,7 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "-They were trapped in the rental cycle, paying $3,200/month with nothing to show for it while home prices seemed to climb every month.",
+        "-They were trapped in the rental cycle, paying $3,800/month with nothing to show for it while home prices seemed to climb every month.",
         "-Every property they viewed either exceeded their budget or lacked the essential features they needed: proximity to good schools, a spacious kitchen for family gatherings, and a private office space for client meetings.",
         "-They felt overwhelmed by the market complexity and worried they'd never find something within their price range that checked all their boxes.",
         "-Time was running out. They needed to act fast before rates changed or the perfect property slipped away."
