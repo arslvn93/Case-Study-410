@@ -11,7 +11,7 @@ const config = {
           },
           {
             "type": "phone",
-            "value": "416-410-2880"
+            "value": "416 616 9369"
           }
         ]
       },
